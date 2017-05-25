@@ -11,7 +11,7 @@ let request = require('request');
 let cheerio = require('cheerio');
 
 let app = express(); //Definição da aplicação através do express.
-let port = 3000; //Porta onde a aplicação será executada.
+let port = process.env.PORT || 3000; //Porta onde a aplicação será executada.
 
 app.use(bodyParser()); //Permite retornar os dados de um Post, usado para capturar os valores.
 
