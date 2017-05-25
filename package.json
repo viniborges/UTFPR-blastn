@@ -1,0 +1,23 @@
+{
+  "name": "blaswebapp",
+  "version": "1.0.0",
+  "description": "Aplicação para utilizar o blastn e verificar o resultado.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blastn",
+    "utfpr",
+    "plantas",
+    "virus"
+  ],
+  "author": "Luis Vinicius",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cheerio": "^0.22.0",
+    "express": "^4.15.2",
+    "request": "^2.81.0"
+  }
+}
